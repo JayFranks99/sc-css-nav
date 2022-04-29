@@ -201,7 +201,7 @@ body {
 }
 
 .header .fa {
-  color: #3fbabc;
+  color: #3f95bf;
 }
 
 .header .dropdown {
@@ -237,7 +237,7 @@ body {
 
 header .fas {
   font-size: 2rem;
-  color: #3fbabc;
+  color: #3f95bf;
 }
 
 .menu li a {
@@ -264,7 +264,7 @@ header .fas {
 
 /* Middle hamburger line */
 .header .menu-icon .navicon {
-  background: #3fbabc;
+  background: #3f95bf;
   display: block;
   height: 4px;
   position: relative;
@@ -275,7 +275,7 @@ header .fas {
 /* Top and bottom hamburger lines which rotate on click */
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #3fbabc;
+  background: #3f95bf;
   content: "";
   display: block;
   height: 100%;
@@ -366,7 +366,7 @@ header .fas {
 }
 
 .active {
-  border-left: solid 5px #3fbabc !important;
+  border-left: solid 5px #3f95bf !important;
   border-bottom: solid 2px #f3f3f3 !important;
   border-top: solid 2px #f3f3f3 !important;
 }
@@ -511,11 +511,11 @@ header .fas {
 
   /* When hovering over the dropdown div (whole nav item) show bottom vorder to that dropdown button link  */
   .menu .dropdown-div:hover .dropdown-button {
-    border-bottom: solid 3px #3fbabc;
+    border-bottom: solid 3px #3f95bf;
   }
 
   .menu .dropdown-div:hover .dropdown-button label {
-    color: #3fbabc;
+    color: #3f95bf;
   }
 
   .menu li a {
@@ -535,11 +535,11 @@ header .fas {
   .menu .dropdown a:hover,
   .blog-link:hover {
     text-decoration: underline;
-    color: #3fbabc;
+    color: #3f95bf;
   }
 
   .dropdown-header:hover > h4 {
-    color: #3fbabc;
+    color: #3f95bf;
   }
 
   #how-it-works .dropdown-header,
@@ -678,7 +678,7 @@ header .fas {
   }
 
   .active {
-    border-left: solid 5px #3fbabc !important;
+    border-left: solid 5px #3f95bf !important;
     border-bottom: solid 2px #f3f3f3 !important;
     border-top: solid 2px #f3f3f3 !important;
   }
@@ -710,26 +710,6 @@ header .fas {
   .nav-links-right {
     right: 75px;
   }
-}
-
-/* FLAG BUTTON CODE */
-#flag-button {
-  position: fixed;
-  top: 63px;
-  right: 10px;
-  border: none !important;
-  transition: all 0.2s;
-  z-index: 2;
-  padding: 0 0 30px 25px;
-}
-
-#flag-button img {
-  border: solid 3px transparent !important;
-  border-radius: 50%;
-}
-
-.menu .dropdown-div:hover #flag-button img {
-  border: solid 3px #3fbabc !important;
 }
 
 /* END OF TOP HEADER SCROLL AND TIMER STYLES */
