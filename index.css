@@ -13,6 +13,29 @@ body {
 
 /* Main nav styles*/
 
+#top-header {
+  background-color: #3fbabc;
+  text-align: center;
+  padding: 5px 0;
+}
+
+#top-header a {
+  color: white;
+  font-size: 0.8rem;
+}
+
+#top-header .fa-brands {
+  margin-left: 15px;
+}
+
+#top-header .fa-envelope {
+  margin-right: 5px;
+}
+
+.top-right-links a {
+  margin-left: 15px;
+}
+
 #nav-con .container {
   max-width: 1080px;
   width: 80%;
@@ -23,67 +46,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-}
-
-/* Text fade in an out */
-#scroll-container {
-  background-color: #3fbabc;
-  text-align: center;
-  padding: 14px 0 26px;
-  overflow: hidden;
-  font-weight: bold;
-}
-
-#scroll-text p {
-  color: white;
-  font-size: 0.9rem;
-  width: 100%;
-  margin: 0 auto;
-  position: absolute;
-  top: 11px;
-}
-
-@media screen and (max-width: 800px) {
-  #scroll-text p {
-    top: 11px;
-  }
-}
-
-/* Top header scroll text */
-.js-nametag {
-  position: absolute;
-}
-
-/* Checkout fix */
-.header p {
-  line-height: unset;
-}
-
-.js-nametag:nth-child(1) {
-  animation-name: fade;
-  animation-fill-mode: both;
-  animation-iteration-count: infinite;
-  animation-duration: 4s;
-  animation-direction: alternate-reverse;
-}
-
-.js-nametag:nth-child(2) {
-  animation-name: fade;
-  animation-fill-mode: both;
-  animation-iteration-count: infinite;
-  animation-duration: 4s;
-  animation-direction: alternate;
-}
-
-@keyframes fade {
-  0%,
-  50% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
 }
 
 #nav-con {
@@ -247,10 +209,6 @@ header .fas {
 .dropdown-div a,
 .dropdown div {
   text-align: left;
-}
-
-.nav-links-right a {
-  padding: 0 5% !important;
 }
 
 /* HAMBURGER icon */
@@ -442,13 +400,6 @@ header .fas {
     cursor: pointer;
   }
 
-  .nav-links-right {
-    width: 37.5%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-
   .dropdown-button {
     display: block !important;
   }
@@ -470,7 +421,7 @@ header .fas {
     padding: 0;
     position: fixed;
     left: 0;
-    top: 136px;
+    top: 128px;
     justify-content: space-between;
   }
 
@@ -488,7 +439,7 @@ header .fas {
 
   /* SHOW DROPDOWN DIV ON HOVER */
   .menu .dropdown-div:hover .dropdown {
-    height: 270px;
+    height: 265px;
     box-shadow: 0px 8px 10px 0px #ddd, 0px 0px 10px -13px rgb(0 0 0 / 0%);
     -webkit-box-shadow: 0px 8px 10px 0px #ddd,
       0px 0px 10px -13px rgb(0 0 0 / 0%);
@@ -496,7 +447,7 @@ header .fas {
 
   .menu #advice-dropdown:hover .dropdown,
   .menu #how-it-works:hover .dropdown {
-    height: 120px !important;
+    height: 110px !important;
   }
 
   #flag-dropdown .dropdown div,
@@ -542,10 +493,9 @@ header .fas {
     color: #3f95bf;
   }
 
-  #how-it-works .dropdown-header,
-  #pet-tests .dropdown-header,
-  #how-it-works .dropdown-header:hover > h4,
-  #pet-tests .dropdown-header:hover > h4 {
+  /* Preventing hover effects for headers without links */
+  #tests .dropdown-header,
+  #tests .dropdown-header:hover > h4 {
     text-decoration: none;
     color: #666;
   }
@@ -589,17 +539,17 @@ header .fas {
 
   /* When input is checked, set height of dropdown menu - height allows transtion */
   .header .drop-btn:checked ~ .dropdown {
-    height: 550px;
+    height: 590px;
     border-bottom: solid 2px #f3f3f3 !important;
   }
 
   .header .drop-btn2:checked ~ .dropdown {
-    height: 380px;
+    height: 390px;
     border-bottom: solid 2px #f3f3f3 !important;
   }
 
   .header .drop-btn3:checked ~ .dropdown {
-    height: 380px;
+    height: 390px;
     border-bottom: solid 2px #f3f3f3 !important;
   }
 
@@ -661,19 +611,8 @@ header .fas {
     margin-left: 5px;
   }
 
-  /* To allow hamburger css animation + trigger of menu */
-  .nav-links-right {
-    right: 19%;
-    position: absolute;
-    display: flex;
-  }
-
-  .nav-links-right a {
-    padding: 0 !important;
-  }
-
   .login-btn,
-  .nav-links-right .j-btn {
+  .j-btn {
     display: none;
   }
 
@@ -685,15 +624,13 @@ header .fas {
 }
 
 /* Between these widths */
-@media screen and (max-width: 1249px) and (min-width: 601px) {
-  .nav-links-right {
-    right: 15%;
-  }
-}
 
 @media screen and (max-width: 600px) {
-  .nav-links-right {
-    right: 85px;
+  .top-right-links {
+    display: none;
+  }
+  #top-header .flex-container {
+    align-items: center;
   }
 }
 
@@ -705,10 +642,6 @@ header .fas {
 
   .header .menu {
     top: 92px;
-  }
-
-  .nav-links-right {
-    right: 75px;
   }
 }
 
