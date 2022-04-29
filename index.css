@@ -127,7 +127,7 @@ body {
 .header li a {
   display: block;
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   border: 3px solid transparent;
 }
 
@@ -589,24 +589,24 @@ header .fas {
 
   /* When input is checked, set height of dropdown menu - height allows transtion */
   .header .drop-btn:checked ~ .dropdown {
-    height: 1320px;
+    height: 550px;
     border-bottom: solid 2px #f3f3f3 !important;
   }
 
   .header .drop-btn2:checked ~ .dropdown {
-    height: 1400px;
+    height: 380px;
     border-bottom: solid 2px #f3f3f3 !important;
   }
 
   .header .drop-btn3:checked ~ .dropdown {
-    height: 800px;
+    height: 380px;
     border-bottom: solid 2px #f3f3f3 !important;
   }
 
-  .header .drop-btn4:checked ~ .dropdown {
+  /* .header .drop-btn4:checked ~ .dropdown {
     height: 765px;
     border-bottom: solid 2px #f3f3f3 !important;
-  }
+  } */
 
   /* Custom transtion due to height, needs different value */
   /* .header #tests, .header #works-dropdown  {
