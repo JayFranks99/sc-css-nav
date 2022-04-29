@@ -114,7 +114,7 @@ body {
   position: absolute;
   max-height: 0;
   transition: max-height 0.3s ease;
-  top: 97px;
+  top: 98px;
   width: 100%;
   overflow-y: scroll;
 }
@@ -274,7 +274,9 @@ header .fas {
 
 /* START of cart icon and total amount styling */
 .cart-jay {
-  position: relative;
+  position: absolute;
+  right: 20%;
+  top: 35px;
 }
 
 .cart-jay .circle {
@@ -297,7 +299,7 @@ header .fas {
   margin-left: 10px;
 
   /* (B) BACKGROUND COLOR */
-  background: #0b677d;
+  background: #3f95bf;
 
   /* (C) NECESSARY TO POSITION TEXT BLOCK */
   line-height: 0;
@@ -631,6 +633,10 @@ header .fas {
   }
   #top-header .flex-container {
     align-items: center;
+  }
+  .logo img {
+    width: 215px;
+    height: 75px;
   }
 }
 

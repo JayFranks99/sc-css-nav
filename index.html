@@ -47,7 +47,10 @@
               >My Account</a
             >
             <a href="https://www.sensitivitycheck.com/my-account/">Log in</a>
-            <a href="https://www.sensitivitycheck.com/cart/">Cart</a>
+            <a href="https://www.sensitivitycheck.com/cart/">
+              <i style="margin-right: 5px" class="fas fa-shopping-cart"></i
+              ><!-- <?php echo $woocommerce->cart->cart_contents_count ?> -->Items
+            </a>
           </div>
         </div>
       </div>
@@ -55,12 +58,26 @@
       <header class="header">
         <!-- <div class="container"> -->
         <div class="logo-div">
-          <a class="logo" href="https://www.testyourintolerance.com"
+          <a class="logo" href="https://www.sensitivitycheck.com"
             ><img
               src="https://www.sensitivitycheck.com/wp-content/uploads/2018/06/sensitivity-check-logo-1.png"
               alt="testyourintolerance-logo"
           /></a>
         </div>
+
+        <a href="/cart/" class="cart-a">
+          <div class="cart-jay">
+            <i style="font-size: 2rem" class="fas fa-shopping-cart"></i>
+            <div class="circle">
+              <div class="circle-txt">
+                <p class="amount-of-items">
+                  <!-- <?php echo $woocommerce->cart->cart_contents_count ?> -->
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"
           ><span class="navicon"></span
@@ -70,7 +87,7 @@
         <!-- Dropdown Menu -->
         <ul class="menu">
           <li class="mobile-only-link">
-            <a href="https://www.testyourintolerance.com/shop/">Shop now</a>
+            <a href="https://www.sensitivitycheck.com/shop/">Shop now</a>
           </li>
 
           <!-- Dropdown div -->
@@ -210,7 +227,7 @@
           </div>
 
           <li class="desktop-link">
-            <a class="blog-link" href="https://www.sensitivitycheck.com/"
+            <a class="blog-link" href="https://www.sensitivitycheck.com/blog/"
               >Sensitivity Blogs</a
             >
           </li>
@@ -244,7 +261,7 @@
                 <div>
                   <li>
                     <a
-                      href="https://www.testyourintolerance.com/problem-foods-symptoms/"
+                      href="https://www.sensitivitycheck.com/problem-foods-symptoms/"
                       class="dropdown-header"
                     >
                       <h4>Food Intolerance</h4>
@@ -266,7 +283,7 @@
                 <div>
                   <li>
                     <a
-                      href="https://www.testyourintolerance.com/contact-us/"
+                      href="https://www.sensitivitycheck.com/contact-us/"
                       class="dropdown-header"
                     >
                       <h4>FAQs</h4>
@@ -278,23 +295,25 @@
           </div>
 
           <li class="mobile-only-link">
-            <a href="https://www.testyourintolerance.com/which-test-to-choose/"
+            <a href="https://www.sensitivitycheck.com/become-a-partner/"
               >Become a partner</a
             >
           </li>
 
           <li class="mobile-only-link">
-            <a href="https://www.testyourintolerance.com/which-test-to-choose/"
-              >FAQs</a
-            >
+            <a href="https://www.sensitivitycheck.com/contact/">FAQs</a>
           </li>
 
           <!-- hidden on dekstop -->
           <div class="mobile-bottom-links">
-            <a href="/my-account/" class="login-btn-2"
+            <a
+              href="https://www.sensitivitycheck.com/my-account/"
+              class="login-btn-2"
               >Log in<i class="fas fa-user-circle"></i
             ></a>
-            <a href="/my-account/">My Account</a>
+            <a href="https://www.sensitivitycheck.com/my-account/"
+              >My Account</a
+            >
           </div>
 
           <!-- Adding this to allow scrolling for the dropdown nav -->
