@@ -174,7 +174,7 @@ body {
 }
 
 .dropdown div {
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .dropdown-div img {
@@ -541,17 +541,17 @@ header .fas {
 
   /* When input is checked, set height of dropdown menu - height allows transtion */
   .header .drop-btn:checked ~ .dropdown {
-    height: 590px;
+    height: 525px;
     border-bottom: solid 2px #f3f3f3 !important;
   }
 
   .header .drop-btn2:checked ~ .dropdown {
-    height: 390px;
+    height: 290px;
     border-bottom: solid 2px #f3f3f3 !important;
   }
 
   .header .drop-btn3:checked ~ .dropdown {
-    height: 390px;
+    height: 290px;
     border-bottom: solid 2px #f3f3f3 !important;
   }
 
@@ -642,12 +642,18 @@ header .fas {
 
 @media screen and (max-width: 321px) {
   .logo img {
-    height: 69px;
-    max-width: 132px;
+    height: 60px;
+    max-width: 170px;
+  }
+
+  .cart-jay {
+    position: absolute;
+    right: 22.5%;
+    top: 30px;
   }
 
   .header .menu {
-    top: 92px;
+    top: 84px;
   }
 }
 
