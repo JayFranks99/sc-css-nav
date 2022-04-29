@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- jquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- FONT AWESOME CDN -->
+    <script
+      src="https://kit.fontawesome.com/eea3fcba86.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <div id="nav-con">
+      <div id="scroll-container">
+        <div id="scroll-text">
+          <p class="js-nametag">60% OFF SPRING SALE</p>
+          <p class="js-nametag">10% EXTRA OFF WITH CODE: SAVE10</p>
+        </div>
+      </div>
+
+      <header class="header">
+        <!-- <div class="container"> -->
+        <div class="logo-div">
+          <a class="logo" href="https://www.testyourintolerance.com"
+            ><img
+              src="https://www.sensitivitycheck.com/wp-content/uploads/2018/06/sensitivity-check-logo-1.png"
+              alt="testyourintolerance-logo"
+          /></a>
+        </div>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"
+          ><span class="navicon"></span
+        ></label>
+        <!-- </div> -->
+
+        <!-- Dropdown Menu -->
+        <ul class="menu">
+          <li class="mobile-only-link">
+            <a href="https://www.testyourintolerance.com/shop/">Shop now</a>
+          </li>
+
+          <!-- Dropdown div -->
+          <div class="dropdown-div">
+            <li>
+              <a class="dropdown-button">
+                <label class="drop-icon" for="drop-btn">
+                  <p>Buy a test</p>
+                  <i class="fa fa-caret-down"></i>
+                </label>
+              </a>
+            </li>
+            <input class="drop-btn" type="checkbox" id="drop-btn" />
+
+            <ul id="tests" class="dropdown">
+              <div class="flex-container container">
+                <div>
+                  <li>
+                    <a
+                      class="dropdown-header"
+                      href="https://www.testyourintolerance.com/allergy-intolerance-tests/"
+                    >
+                      <h4>Standard tests</h4>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/product/allergy-test/"
+                      >Couples Test</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/product/intolerance-test/"
+                      >Family Test</a
+                    >
+                  </li>
+                </div>
+
+                <div>
+                  <li>
+                    <a
+                      class="dropdown-header"
+                      href="https://www.testyourintolerance.com/sensitivity-tests/"
+                    >
+                      <h4>Ultimate tests</h4>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/product/sensitivity-test/"
+                      >Ultimate Test</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/product/sensitivity-test-plus/"
+                      >Ultimate Couples Test</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/product/sensitivity-test-plus/"
+                      >Ultimate Family Test</a
+                    >
+                  </li>
+                </div>
+                <div>
+                  <img
+                    src="https://thumbs.dreamstime.com/b/sale-concept-banner-figure-minus-percent-discount-red-background-close-up-192661923.jpg"
+                  />
+                </div>
+              </div>
+            </ul>
+          </div>
+
+          <!-- Dropdown div -->
+          <div id="how-it-works" class="dropdown-div">
+            <li>
+              <a class="dropdown-button">
+                <label class="drop-icon" for="drop-btn2">
+                  <p>About Sensitivity Check</p>
+                  <i class="fa fa-caret-down"></i>
+                </label>
+              </a>
+            </li>
+
+            <input class="drop-btn2" type="checkbox" id="drop-btn2" />
+
+            <ul class="dropdown">
+              <div class="flex-container container">
+                <div>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/which-test-to-choose/"
+                      class="dropdown-header"
+                    >
+                      <h4>What we test</h4>
+                    </a>
+                  </li>
+                </div>
+
+                <div>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/problem-foods-symptoms/"
+                      class="dropdown-header"
+                    >
+                      <h4>Sensitivity Testing Labs</h4>
+                    </a>
+                  </li>
+                </div>
+
+                <div>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/contact-us/"
+                      class="dropdown-header"
+                    >
+                      <h4>Sensitivity Testing Science</h4>
+                    </a>
+                  </li>
+                </div>
+
+                <div>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/nutritional-therapist/"
+                      class="dropdown-header"
+                    >
+                      <h4>FAQs</h4>
+                    </a>
+                  </li>
+                </div>
+              </div>
+            </ul>
+          </div>
+
+          <li class="desktop-link">
+            <a class="blog-link" href="/blog/">Sensitivity Blogs</a>
+          </li>
+
+          <!-- Dropdown div -->
+          <div id="advice-dropdown" class="dropdown-div">
+            <li>
+              <a class="dropdown-button">
+                <label class="drop-icon" for="drop-btn3">
+                  <p>Advice</p>
+                  <i class="fa fa-caret-down"></i>
+                </label>
+              </a>
+            </li>
+
+            <input class="drop-btn3" type="checkbox" id="drop-btn3" />
+
+            <ul class="dropdown">
+              <div class="flex-container container">
+                <div>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/which-test-to-choose/"
+                      class="dropdown-header"
+                    >
+                      <h4>Food Sensitivity</h4>
+                    </a>
+                  </li>
+                </div>
+
+                <div>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/problem-foods-symptoms/"
+                      class="dropdown-header"
+                    >
+                      <h4>Food Intolerance</h4>
+                    </a>
+                  </li>
+                </div>
+
+                <div>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/contact-us/"
+                      class="dropdown-header"
+                    >
+                      <h4>Allergy or Intolerance</h4>
+                    </a>
+                  </li>
+                </div>
+
+                <div>
+                  <li>
+                    <a
+                      href="https://www.testyourintolerance.com/nutritional-therapist/"
+                      class="dropdown-header"
+                    >
+                      <h4>FAQs</h4>
+                    </a>
+                  </li>
+                </div>
+              </div>
+            </ul>
+          </div>
+
+          <li class="mobile-only-link">
+            <a href="https://www.testyourintolerance.com/which-test-to-choose/"
+              >Become a partner</a
+            >
+          </li>
+
+          <li class="mobile-only-link">
+            <a href="https://www.testyourintolerance.com/which-test-to-choose/"
+              >FAQs</a
+            >
+          </li>
+
+          <!-- hidden on dekstop -->
+          <div class="mobile-bottom-links">
+            <a href="/my-account/" class="login-btn-2"
+              >Log in<i class="fas fa-user-circle"></i
+            ></a>
+            <a href="/my-account/">My Account</a>
+          </div>
+
+          <!-- Adding this to allow scrolling for the dropdown nav -->
+          <li class="mobile-only-link" style="padding-bottom: 300px"></li>
+        </ul>
+      </header>
+    </div>
+    <!-- END OF NAV -->
+    <script src="index.js" async defer></script>
+  </body>
+</html>
