@@ -441,7 +441,7 @@ header .fas {
 
   /* SHOW DROPDOWN DIV ON HOVER */
   .menu .dropdown-div:hover .dropdown {
-    height: 265px;
+    height: 230px;
     box-shadow: 0px 8px 10px 0px #ddd, 0px 0px 10px -13px rgb(0 0 0 / 0%);
     -webkit-box-shadow: 0px 8px 10px 0px #ddd,
       0px 0px 10px -13px rgb(0 0 0 / 0%);
@@ -482,7 +482,7 @@ header .fas {
 
   .dropdown li a {
     font-size: 0.9rem;
-    padding: 10px 0;
+    padding: 7.5px 0;
   }
 
   .menu .dropdown a:hover,
@@ -536,22 +536,26 @@ header .fas {
   }
 
   .dropdown a {
-    padding: 10px 0 !important;
+    padding: 7.5px 0 !important;
+  }
+
+  .dropdown-div img {
+    width: 125px;
   }
 
   /* When input is checked, set height of dropdown menu - height allows transtion */
   .header .drop-btn:checked ~ .dropdown {
-    height: 525px;
+    height: 510px;
     border-bottom: solid 2px #f3f3f3 !important;
   }
 
   .header .drop-btn2:checked ~ .dropdown {
-    height: 290px;
+    height: 270px;
     border-bottom: solid 2px #f3f3f3 !important;
   }
 
   .header .drop-btn3:checked ~ .dropdown {
-    height: 290px;
+    height: 270px;
     border-bottom: solid 2px #f3f3f3 !important;
   }
 
